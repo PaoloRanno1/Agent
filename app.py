@@ -309,8 +309,8 @@ def main():
     st.markdown("Upload and analyze legal documents with AI-powered insights")
     
     # Add password check
-    if not check_password():
-        st.stop()
+    #if not check_password():
+     #   st.stop()
     
     # Sidebar for API key and file upload
     with st.sidebar:

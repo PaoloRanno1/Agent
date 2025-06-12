@@ -275,6 +275,7 @@ def create_pdf_agent(openai_api_key: str, pdf_manager: PDFManager):
     return agent_executor
 
 # Streamlit UI
+'''
 def check_password():
     """Returns `True` if the user had the correct password."""
     
@@ -302,7 +303,7 @@ def check_password():
     else:
         # Password correct
         return True
-
+'''
 def main():
     st.title("⚖️ Strada Legal PDF Agent")
     st.markdown("Upload and analyze legal documents with AI-powered insights")
